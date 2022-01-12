@@ -1,0 +1,10 @@
+.Users {
+  display: flex;
+}
+
+.User_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: fit-content;
+  height: fit-content;
+}
