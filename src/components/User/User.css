@@ -1,0 +1,43 @@
+.User {
+  height: fit-content;
+  padding: 1.5rem;
+  position: relative;
+  margin: 0 0.5rem 1rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
+}
+
+.User:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.14);
+}
+
+.User ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.User ul li strong {
+  color: #da3c78;
+}
+
+.User button {
+  top: 0.5rem;
+  right: 0.5rem;
+  border: none;
+  outline: none;
+  color: rgb(190, 190, 190);
+  background: none;
+  cursor: pointer;
+  line-height: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  position: absolute;
+}
+
+.User button:hover,
+.User button:focus {
+  color: #ff6ca8;
+}
